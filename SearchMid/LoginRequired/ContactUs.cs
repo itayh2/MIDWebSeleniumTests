@@ -16,7 +16,7 @@ namespace MIDWebTests.SearchMid.LoginRequired
         private IWebElement messgeTextBox => driver.FindElement(By.CssSelector(".form-group:nth-child(7) > .ng-untouched"));
         private IWebElement sendDetailsBtn => driver.FindElement(By.CssSelector(".send-btn:nth-child(8) > span"));
         private IWebElement gotItBtn => driver.FindElement(By.CssSelector("#bootsTrapper > ng-sidebar-container > div > div > main > contact > modal > div > div > div > div > div > div > button"));
-
+        
         [Test]
         public void SendInquiryTest()
         {
