@@ -28,7 +28,7 @@ namespace MIDWebTests.MyMid.SearchPage
                 firstNameTextBox.SendKeys("Roy");
             });
             lastNameTextBox.SendKeys("Chen");
-            emailTextBox.SendKeys("roy1@gmail.com");
+            emailTextBox.SendKeys("roy77@gmail.com");
             SelectElement selectElement = new SelectElement(driver.FindElement(By.Id("account_type")));
             Thread.Sleep(4000);
             selectElement.SelectByIndex(4);

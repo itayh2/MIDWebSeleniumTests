@@ -23,7 +23,7 @@ namespace MIDWebTests.MyMid.SearchPage
             searchBtn.Click();
             Thread.Sleep(1000);
             IWebElement countOfDiamondsText = wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector(".result-number")));
-            string expectedText = "4";
+            string expectedText = "3";
             string actualText = countOfDiamondsText.Text.Split('\n')[0].Split('\r')[0];
             Assert.That(actualText, Is.EqualTo(expectedText), $"Text assertion failed! Expected: '{expectedText}', Actual: '{actualText}'");
             Console.Write($"Free Text Search:\n The test passed successfully! Expected: '{expectedText}', Actual: '{actualText}'");

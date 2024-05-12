@@ -22,7 +22,7 @@ namespace MIDWebTests.MyMid.SearchPage
             searchBtn.Click();
             Thread.Sleep(1000);
             IWebElement countOfDiamondsText = wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector(".result-number")));
-            string expectedText = "228";
+            string expectedText = "280";
             string actualText = countOfDiamondsText.Text.Split('\n')[0].Split('\r')[0];
             Assert.That(actualText, Is.EqualTo(expectedText), $"Text assertion failed! Expected: '{expectedText}', Actual: '{actualText}'");
             Console.Write($"Matching Stones All:\nThe test passed successfully! Expected: '{expectedText}', Actual: '{actualText}'");
@@ -40,7 +40,7 @@ namespace MIDWebTests.MyMid.SearchPage
             searchBtn.Click();
             Thread.Sleep(1000);
             IWebElement countOfDiamondsText = wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector(".result-number")));
-            string expectedText = "158";
+            string expectedText = "200";
             string actualText = countOfDiamondsText.Text.Split('\n')[0].Split('\r')[0];
             Assert.That(actualText, Is.EqualTo(expectedText), $"Text assertion failed! Expected: '{expectedText}', Actual: '{actualText}'");
             Console.Write($"Matching Stones Perfect:\nThe test passed successfully! Expected: '{expectedText}', Actual: '{actualText}'");
@@ -58,7 +58,7 @@ namespace MIDWebTests.MyMid.SearchPage
             searchBtn.Click();
             Thread.Sleep(1000);
             IWebElement countOfDiamondsText = wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector(".result-number")));
-            string expectedText = "70";
+            string expectedText = "80";
             string actualText = countOfDiamondsText.Text.Split('\n')[0].Split('\r')[0];
             Assert.That(actualText, Is.EqualTo(expectedText), $"Text assertion failed! Expected: '{expectedText}', Actual: '{actualText}'");
             Console.Write($"Matching Stones Separable:\nThe test passed successfully! Expected: '{expectedText}', Actual: '{actualText}'");

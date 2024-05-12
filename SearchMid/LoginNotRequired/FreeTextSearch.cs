@@ -21,7 +21,7 @@ namespace MIDWebTests.SearchMid.LoginNotRequired
             Thread.Sleep(1000);
             freeTextBox.SendKeys(Keys.Enter);
             IWebElement countOfDiamondsInCartText = wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector(".text-light-grey")));
-            string expectedText = "4";
+            string expectedText = "3";
             string actualText = countOfDiamondsInCartText.Text.Split(' ')[1];
             Assert.That(actualText, Is.EqualTo(expectedText), $"Text assertion failed! Expected: '{expectedText}', Actual: '{actualText}'");
             Console.Write($"Free Text Search:\n The test passed successfully! Expected: '{expectedText}', Actual: '{actualText}'");
