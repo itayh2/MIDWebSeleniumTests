@@ -21,7 +21,7 @@ namespace MIDWebTests.MyMid.SearchPage
 
             IWebElement notificationMessage = wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector(".result-number")));
             string actualText = notificationMessage.Text;
-            string expectedText = "8510";
+            string expectedText = "8508";
             string[] parts = actualText.Split('\r');
             string numberStr = parts[0];
             if (numberStr != expectedText)

@@ -9,7 +9,7 @@ namespace MIDWebTests.MyMid
         protected IWebDriver driver;
         private IWebElement passwordInput => driver.FindElement(By.Id("1-password"));
         private IWebElement submitBtn => driver.FindElement(By.Id("1-submit"));
-
+        
         [SetUp]
         public void Setup()
         {

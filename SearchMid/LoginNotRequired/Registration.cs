@@ -32,7 +32,7 @@ namespace MIDWebTests.SearchMid.LoginNotRequired
             {
                 signUpBtn.Click();
             });
-            emailInput.SendKeys("roy1@gmail.com");
+            emailInput.SendKeys("roy2@gmail.com");
             passwordInput.SendKeys("royChen2");
             fisrtNameInput.SendKeys("Roy");
             lastNameInput.SendKeys("Chen");

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\itay\\Documents\\Projects\\MIDWebTests\\MIDWebTests\\MIDWebTests.csproj": {}
+    "C:\\Users\\Itay\\Documents\\MIDWebTests\\MIDWebTests\\MIDWebTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\itay\\Documents\\Projects\\MIDWebTests\\MIDWebTests\\MIDWebTests.csproj": {
+    "C:\\Users\\Itay\\Documents\\MIDWebTests\\MIDWebTests\\MIDWebTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\itay\\Documents\\Projects\\MIDWebTests\\MIDWebTests\\MIDWebTests.csproj",
+        "projectUniqueName": "C:\\Users\\Itay\\Documents\\MIDWebTests\\MIDWebTests\\MIDWebTests.csproj",
         "projectName": "MIDWebTests",
-        "projectPath": "C:\\Users\\itay\\Documents\\Projects\\MIDWebTests\\MIDWebTests\\MIDWebTests.csproj",
-        "packagesPath": "C:\\Users\\itay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\itay\\Documents\\Projects\\MIDWebTests\\MIDWebTests\\obj\\",
+        "projectPath": "C:\\Users\\Itay\\Documents\\MIDWebTests\\MIDWebTests\\MIDWebTests.csproj",
+        "packagesPath": "C:\\Users\\Itay\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Itay\\Documents\\MIDWebTests\\MIDWebTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\itay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Itay\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Itay\\Desktop": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -97,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

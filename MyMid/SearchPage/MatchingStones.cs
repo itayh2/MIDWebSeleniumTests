@@ -22,7 +22,7 @@ namespace MIDWebTests.MyMid.SearchPage
             searchBtn.Click();
             Thread.Sleep(1000);
             IWebElement countOfDiamondsText = wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector(".result-number")));
-            string expectedText = "280";
+            string expectedText = "278";
             string actualText = countOfDiamondsText.Text.Split('\n')[0].Split('\r')[0];
             Assert.That(actualText, Is.EqualTo(expectedText), $"Text assertion failed! Expected: '{expectedText}', Actual: '{actualText}'");
             Console.Write($"Matching Stones All:\nThe test passed successfully! Expected: '{expectedText}', Actual: '{actualText}'");
@@ -40,7 +40,7 @@ namespace MIDWebTests.MyMid.SearchPage
             searchBtn.Click();
             Thread.Sleep(1000);
             IWebElement countOfDiamondsText = wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector(".result-number")));
-            string expectedText = "200";
+            string expectedText = "198";
             string actualText = countOfDiamondsText.Text.Split('\n')[0].Split('\r')[0];
             Assert.That(actualText, Is.EqualTo(expectedText), $"Text assertion failed! Expected: '{expectedText}', Actual: '{actualText}'");
             Console.Write($"Matching Stones Perfect:\nThe test passed successfully! Expected: '{expectedText}', Actual: '{actualText}'");

@@ -34,7 +34,7 @@ namespace MIDWebTests.MyMid.SearchPage
                 addMember.SendKeys("itay080297@gmail.com");
                 IWebElement selectMember = wait.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector(".completer-list-item:nth-child(2)")));
                 selectMember.Click();
-                IWebElement changeCountryBtn = wait.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector(".col-sm-12 > .btn:nth-child(5)")));
+                IWebElement changeCountryBtn = wait.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector(".col-sm-12 > .btn:nth-child(6)")));
                 changeCountryBtn.Click();
                 IWebElement okBtn = wait.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector(".orange-btn")));
                 okBtn.Click();

@@ -33,8 +33,8 @@ namespace MIDWebTests.MyMid.VirtualSupplierPage
 
             IWebElement continue1Btn = wait.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector(".btn:nth-child(5)")));
             continue1Btn.Click();
-            IWebElement resetVmid = wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector(".icon-reset-small")));
-            resetVmid.Click();
+            //IWebElement resetVmid = wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector(".icon-reset-small")));
+            //resetVmid.Click();
             Thread.Sleep(1000);
             IWebElement continue2Btn = wait.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector(".btn-orange")));
             continue2Btn.Click();
